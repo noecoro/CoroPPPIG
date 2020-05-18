@@ -1,0 +1,24 @@
+//se me complico subirlo 
+#include <stdio.h>
+#include <stdlib.h>
+float aplicarDescuento(float precio);
+int main()
+{
+       int precio;
+    precio=aplicarDescuento(precio);
+    printf("ingrese precio");
+
+    printf("total %f",precio);
+   return precio;
+}
+//===============
+
+
+float aplicarDescuento(float precio){
+	float preDescuento;
+	float valorDescuento;
+	valorDescuento = (precio * ((float)5 / 100));
+	preDescuento = precio - valorDescuento;
+
+	return preDescuento;
+}
